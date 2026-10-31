@@ -1,5 +1,4 @@
 ### **XAI-Pruner: Explainability-Driven Pruning of CNN and Transformer**
-
 ------
 
 **XAI-Pruner** is an advanced pruning framework that leverages Explainable AI (XAI) techniques to achieve model compression while preserving high performance.  It employs the Layer-wise Relevance Propagation (LRP) to assess the contributions of individual network components, guiding a structured pruning process. 

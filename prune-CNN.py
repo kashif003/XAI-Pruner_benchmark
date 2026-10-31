@@ -143,7 +143,7 @@ def get_args_parser():
                         help='How to apply mixup/cutmix params. Per "batch", "pair", or "elem"')
 
     # Dataset parameters
-    parser.add_argument('--data_path', default='./data/imagenet/', type=str, help='dataset path')
+    parser.add_argument('--data_path', default='./data/imagenet/', type=str, help='dataset path')  # CHANGE: set default to your ImageNet path (or pass --data_path)
     parser.add_argument('--data_set', default='IMNET', choices=['CIFAR', 'IMNET', 'INAT', 'INAT19'],
                         type=str, help='Image Net dataset path')
     parser.add_argument('--inat-category', default='name',

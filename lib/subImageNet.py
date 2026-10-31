@@ -6,7 +6,7 @@ import argparse
 
 random.seed(0)
 parser = argparse.ArgumentParser('Generate SubImageNet', add_help=False)
-parser.add_argument('--data-path', default='../data/imagenet', type=str, help='dataset path')
+parser.add_argument('--data-path', default='../data/imagenet', type=str, help='dataset path')  # CHANGE: set default to your ImageNet path (or pass --data-path)
 args = parser.parse_args()
 
 data_path = args.data_path
